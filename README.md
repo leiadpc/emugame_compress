@@ -16,9 +16,13 @@ Batch compress Xbox 360 ISO files to ZAR
 For use with
 [Xenia](https://github.com/xenia-project/xenia)
 
+### Zip to 7Z ###
+Batch convert zipped roms to 7z, made spificlly for use with MAME and FBNeo roms but should work on any cartridge based systems.
+
 
 ### Tools Used ###
 [chdman](https://github.com/mamedev/mame),
 [maxcso](https://www.google.com](https://github.com/unknownbrackets/maxcso)https://github.com/unknownbrackets/maxcso),
 [zarchive](https://github.com/Exzap/ZArchive),
-[extract-xiso](https://github.com/XboxDev/extract-xiso)
+[extract-xiso](https://github.com/XboxDev/extract-xiso),
+[7zip](https://www.7-zip.org/)
