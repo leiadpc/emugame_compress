@@ -16,7 +16,7 @@ foreach ($zipFile in $zipFiles) {
     }
     else {
         Set-Location ..
-        Remove-Item -Recurse -Force ".\.temp"\
+        Remove-Item -Recurse -Force ".\.temp"
         # Comment out next line to keep original zip file
         Remove-Item $zipFile.FullName        
 }}}
