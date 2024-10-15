@@ -1,9 +1,12 @@
-# EmuGames Powershell Compression Scripts #
+# EmuGames Powershell and Bash Scripts #
 Work in progress, I will try to keep everything functional but there will most likely be major changes down the road.
 ## Usage ##
-All of these scripts are ment to be ran in the same folder as the game files, just extract into the folder with the files you want compressed, navigate to said folder in powershell and and run `.\script.ps1` replacing "script" with whichever one you want to use. 
+All of these scripts are ment to be ran in the same folder as the game files, just extract into the folder with the files you want compressed, navigate to said folder in powershell or bash and and run `.\script.ps1` or `./script.sh` replacing "script" with whichever one you want to use, make sure that the file is executable. 
 
 **IMPORTANT: By default these scripts are set up to remove the files as they are converted, if you do not want the original files to be deleted comment out  the "Remove-Item" lines**
+
+### CHD to ISO and FLAC ###
+This script uses chdman to exctract then bchunk to seperate ISO from audio and ffmpeg to convert audio to FLAC.
 
 ### PSP\PS2: CSO to CHD ###
 Batch convert PSP and PS2 games that have previously been compressed as CSO files.
